@@ -1,0 +1,1 @@
+SELECT id,room_id,fasilitas_id,slug_hotel,id_fasilitas,nama,gambar,id_room FROM room_fasilitas JOIN fasilitas ON fasilitas_id=id_fasilitas JOIN hotel_room ON room_id=id_room WHERE slug_hotel='the-rizen-premiere.html' AND room_id=9

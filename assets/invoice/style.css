@@ -1,0 +1,40 @@
+.container{
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-left: 15px;
+    padding-right: 15px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-seri;
+  font-size: 14px;
+    line-height: 1.5;
+}
+.col{
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* border : 1px solid #000; */
+}
+.left{ width : 70%; float:left;}
+.right{ width : 15%; float:right;}
+.row{
+   /*  margin-left: -15px;
+    margin-right: -15px; */
+}
+
+.clear { clear : both; }
+.invoice-title {
+    color : #33cccc;
+}
+
+p{line-height:1.7;}
+
+.hr{
+  border: 1px solid #33cccc;
+  margin : 20px 0px;
+}
+
+.dashed{
+  border: 1px dashed #000;
+  margin-top : 30px;
+}
+
+hr {border : 1px solid #ddd}
